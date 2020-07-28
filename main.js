@@ -24,3 +24,5 @@ function transferCurrence() {
 
 
 document.querySelector(".current-1__amount").addEventListener("input", transferCurrence);
+
+document.querySelector(".current-1__currency").addEventListener("change", transferCurrence);
